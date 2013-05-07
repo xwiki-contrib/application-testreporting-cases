@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc>
+  <web>WYSIWYG Editor Tests</web>
+  <name>testEditSourceSaveView</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>WYSIWYG Editor Tests.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1366890873000</creationDate>
+  <date>1366890873000</date>
+  <contentUpdateDate>1366890873000</contentUpdateDate>
+  <version>1.1</version>
+  <title/>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <object>
+    <class>
+      <name>QA.TestClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <automated>
+        <customDisplay/>
+        <defaultValue/>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType/>
+        <name>automated</name>
+        <number>2</number>
+        <prettyName>automated</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </automated>
+      <automatedLinkSourceCode>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>automatedLinkSourceCode</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Automated Link Source Code</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </automatedLinkSourceCode>
+      <expectedResult>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>expectedResult</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Expected result</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </expectedResult>
+    </class>
+    <name>WYSIWYG Editor Tests.testEditSourceSaveView</name>
+    <number>0</number>
+    <className>QA.TestClass</className>
+    <guid>f9021490-bad5-4fd1-8777-4ab29f4f28f5</guid>
+    <property>
+      <automated>0</automated>
+    </property>
+    <property>
+      <expectedResult>Saves the page and redirects to view mode </expectedResult>
+    </property>
+  </object>
+  <content>Hover over "Edit" and click on "WYSIWYG"; Click "Source"; Click "Save &amp; View"</content>
+</xwikidoc>

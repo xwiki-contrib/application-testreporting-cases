@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc>
+  <web>Tags Tests</web>
+  <name>testAddRemoveTag</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Tags Tests.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1366890881000</creationDate>
+  <date>1366890881000</date>
+  <contentUpdateDate>1366890881000</contentUpdateDate>
+  <version>1.1</version>
+  <title/>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <object>
+    <class>
+      <name>QA.TestClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <automated>
+        <customDisplay/>
+        <defaultValue/>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType/>
+        <name>automated</name>
+        <number>2</number>
+        <prettyName>automated</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </automated>
+      <automatedLinkSourceCode>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>automatedLinkSourceCode</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Automated Link Source Code</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </automatedLinkSourceCode>
+      <expectedResult>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>expectedResult</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Expected result</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </expectedResult>
+    </class>
+    <name>Tags Tests.testAddRemoveTag</name>
+    <number>0</number>
+    <className>QA.TestClass</className>
+    <guid>a1ced430-9e81-44d7-914b-739db48ea9b0</guid>
+    <property>
+      <automated>1</automated>
+    </property>
+    <property>
+      <expectedResult>The added tags appear on the bottom of the page and on the homepage in the "Tags" section; The tag is deleted and also disappears from the homepage's "Tags" section</expectedResult>
+    </property>
+  </object>
+  <content>Add some tags to a page; Hover over a tag and press the small "x" button</content>
+</xwikidoc>

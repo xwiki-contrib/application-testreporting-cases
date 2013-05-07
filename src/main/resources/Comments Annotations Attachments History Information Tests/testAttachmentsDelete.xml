@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc>
+  <web>Comments Annotations Attachments History Information Tests</web>
+  <name>testAttachmentsDelete</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Comments Annotations Attachments History Information Tests.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1366890853000</creationDate>
+  <date>1366890853000</date>
+  <contentUpdateDate>1366890853000</contentUpdateDate>
+  <version>1.1</version>
+  <title/>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <object>
+    <class>
+      <name>QA.TestClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <automated>
+        <customDisplay/>
+        <defaultValue/>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType/>
+        <name>automated</name>
+        <number>2</number>
+        <prettyName>automated</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </automated>
+      <automatedLinkSourceCode>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>automatedLinkSourceCode</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Automated Link Source Code</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </automatedLinkSourceCode>
+      <expectedResult>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>expectedResult</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Expected result</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </expectedResult>
+    </class>
+    <name>Comments Annotations Attachments History Information Tests.testAttachmentsDelete</name>
+    <number>0</number>
+    <className>QA.TestClass</className>
+    <guid>a75448d8-5e92-46ab-9e43-4676cbc82e52</guid>
+    <property>
+      <automated>0</automated>
+    </property>
+    <property>
+      <expectedResult>The attached file is deleted </expectedResult>
+    </property>
+  </object>
+  <content>Click on the red "X" button located to the right of an attachment; Click "Yes"</content>
+</xwikidoc>

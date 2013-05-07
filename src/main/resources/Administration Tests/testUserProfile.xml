@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc>
+  <web>Administration Tests</web>
+  <name>testUserProfile</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Administration Tests.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1366890895000</creationDate>
+  <date>1366890895000</date>
+  <contentUpdateDate>1366890895000</contentUpdateDate>
+  <version>1.1</version>
+  <title/>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <object>
+    <class>
+      <name>QA.TestClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <automated>
+        <customDisplay/>
+        <defaultValue/>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType/>
+        <name>automated</name>
+        <number>2</number>
+        <prettyName>automated</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </automated>
+      <automatedLinkSourceCode>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>automatedLinkSourceCode</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Automated Link Source Code</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </automatedLinkSourceCode>
+      <expectedResult>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>expectedResult</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Expected result</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </expectedResult>
+    </class>
+    <name>Administration Tests.testUserProfile</name>
+    <number>0</number>
+    <className>QA.TestClass</className>
+    <guid>d3019228-ba80-4c8d-86a1-0660f8d56d49</guid>
+    <property>
+      <automated>0</automated>
+    </property>
+    <property>
+      <expectedResult> The new fields are displayed when viewing a user's profile </expectedResult>
+    </property>
+  </object>
+  <content>Hover over "Wiki" and click on "Administer Wiki"; Click on "User Profile"; Under "Section Properties" click on the "XWikiUsers" link to the "XWiki User Class"; On the bottom of the page click on the "add or modify the class properties" link; Add some properties; Go back to the "User Profile" page and add the new properties to one of the "Section Properties" fields; Click "Save"</content>
+</xwikidoc>
