@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xwikidoc>
-  <web>Workspace Tests</web>
+  <web>Workspaces Tests</web>
   <name>testAcceptInvitation</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Workspace Tests.WebHome</parent>
+  <parent>Workspaces Tests.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1366890760000</creationDate>
-  <date>1366890760000</date>
+  <creationDate>1369653230000</creationDate>
+  <date>1369653248000</date>
   <contentUpdateDate>1366890760000</contentUpdateDate>
   <version>1.1</version>
   <title/>
@@ -75,10 +75,10 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>Workspace Tests.testAcceptInvitation</name>
+    <name>Workspaces Tests.testAcceptInvitation</name>
     <number>0</number>
     <className>QA.TestClass</className>
-    <guid>4c90e25c-0456-4ba6-8195-bdd065cdf498</guid>
+    <guid>e70ecbff-5c2b-4c4e-945d-0a5819cc30db</guid>
     <property>
       <automated>0</automated>
     </property>

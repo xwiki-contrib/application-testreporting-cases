@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xwikidoc>
-  <web>Workspace Tests</web>
-  <name>testAddUsersToAWorkspace</name>
+  <web>Workspaces Tests</web>
+  <name>testPostponeInvitation</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Workspace Tests.WebHome</parent>
+  <parent>Workspaces Tests.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1366890758000</creationDate>
-  <date>1366890758000</date>
-  <contentUpdateDate>1366890758000</contentUpdateDate>
+  <creationDate>1369653238000</creationDate>
+  <date>1369653247000</date>
+  <contentUpdateDate>1366890760000</contentUpdateDate>
   <version>1.1</version>
   <title/>
   <defaultTemplate/>
@@ -75,16 +75,16 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>Workspace Tests.testAddUsersToAWorkspace</name>
+    <name>Workspaces Tests.testPostponeInvitation</name>
     <number>0</number>
     <className>QA.TestClass</className>
-    <guid>350931e9-6edf-4b5b-95be-9e4410750e96</guid>
+    <guid>2c818a75-9d97-4363-b22a-25664ebf6eea</guid>
     <property>
       <automated>0</automated>
     </property>
     <property>
-      <expectedResult>The new member of the workspace appears in the livetable below the "Existing users" section; The user is deleted</expectedResult>
+      <expectedResult>Redirected to the "Workspace Directory" page</expectedResult>
     </property>
   </object>
-  <content>Hover over "Workspace" and click on "Administer Workspace"; Click on "Workspace Users"; Fill in the username and the message; Click "Add"; In the livetable below the "Existing users" section click on the corresponding "remove" link</content>
+  <content>Hover over "Main" and click on "Workspace Directory"; Click on the "View Invitation" link located in the "Actions" column; Click "Later"</content>
 </xwikidoc>

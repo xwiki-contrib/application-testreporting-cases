@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xwikidoc>
-  <web>Workspace Tests</web>
-  <name>testDeleteWorkspace</name>
+  <web>Workspaces Tests</web>
+  <name>testCancelInvitation</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Workspace Tests.WebHome</parent>
+  <parent>Workspaces Tests.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1366890759000</creationDate>
-  <date>1366890759000</date>
-  <contentUpdateDate>1366890759000</contentUpdateDate>
+  <creationDate>1369653232000</creationDate>
+  <date>1369653247000</date>
+  <contentUpdateDate>1366890758000</contentUpdateDate>
   <version>1.1</version>
   <title/>
   <defaultTemplate/>
@@ -75,16 +75,16 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>Workspace Tests.testDeleteWorkspace</name>
+    <name>Workspaces Tests.testCancelInvitation</name>
     <number>0</number>
     <className>QA.TestClass</className>
-    <guid>913e019d-104e-4511-957b-ab2270b677b5</guid>
+    <guid>cf7923ce-396f-4d41-a652-8c2815c3b192</guid>
     <property>
       <automated>0</automated>
     </property>
     <property>
-      <expectedResult>You will see a confirmation message</expectedResult>
+      <expectedResult>You will see a confirmation message and a new entry in the "Candidates" section; You will see a confirmation message</expectedResult>
     </property>
   </object>
-  <content>Login as an administrator or the owner of the workspace; Hover over "Workspace" and click on "Delete"; Click "Yes"</content>
+  <content>Hover over "Workspace" and click on "Administer Workspace"; Click on "Workspace Users"; Fill in the username and the message; Click "Invite"; Click on "Cancel Invitation" in the "Candidates" section</content>
 </xwikidoc>
