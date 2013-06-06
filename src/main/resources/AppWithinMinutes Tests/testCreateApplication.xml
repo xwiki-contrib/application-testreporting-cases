@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc>
+  <web>AppWithinMinutes Tests</web>
+  <name>testCreateApplication</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>AppWithinMinutes Tests.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1369817267000</creationDate>
+  <date>1366890902000</date>
+  <contentUpdateDate>1366890902000</contentUpdateDate>
+  <version>1.1</version>
+  <title/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <object>
+    <class>
+      <name>QA.TestClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <automated>
+        <customDisplay/>
+        <defaultValue/>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType/>
+        <name>automated</name>
+        <number>2</number>
+        <prettyName>automated</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </automated>
+      <automatedLinkSourceCode>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>automatedLinkSourceCode</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Automated Link Source Code</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </automatedLinkSourceCode>
+      <expectedResult>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>expectedResult</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Expected result</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </expectedResult>
+    </class>
+    <name>App Within Minutes Tests.testCreateApplication</name>
+    <number>0</number>
+    <className>QA.TestClass</className>
+    <guid>2b7a97ad-5617-4a51-aa72-1219456c348c</guid>
+    <property>
+      <automated>1</automated>
+    </property>
+    <property>
+      <expectedResult>You see the homepage of your web application; The application will appear in the "Applications" panel with the chosen icon</expectedResult>
+    </property>
+  </object>
+  <content>Click on "More applications" and then on "Create your own!" in the "Applications" panel; Click "Create Application"; Type a name for your application and click "Next Step"; Drag and drop the fields you need in your app from the palette to the right; Click "Next Step"; Add a description; Add some columns by selecting them from the "Columns" drop-down list and by clicking on the green "+" button; Associate an icon with your application by using the syntax "icon:the_name_of_the_icon" in the icon field; Click "Finish"</content>
+</xwikidoc>
