@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <xwikidoc>
-  <web>Web Tests</web>
-  <name>WebHome</name>
-  <language/>
-  <defaultLanguage/>
-  <translation>0</translation>
-  <parent>Web Tests.WebHome</parent>
-  <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817318000</creationDate>
-  <date>1369912148000</date>
-  <contentUpdateDate>1369912148000</contentUpdateDate>
-  <version>1.1</version>
-  <title>WebHome</title>
-  <defaultTemplate/>
-  <validationScript/>
-  <comment/>
-  <minorEdit>false</minorEdit>
-  <syntaxId>xwiki/2.1</syntaxId>
-  <hidden>false</hidden>
-  <content>{{include reference="QA.TestSpaceWebHomeTemplate"/}}</content>
-</xwikidoc>
+<web>Web Tests</web>
+<name>WebHome</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent>Web Tests.WebHome</parent>
+<creator>XWiki.Admin</creator>
+<author>XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>XWiki.Admin</contentAuthor>
+<creationDate>1370432169000</creationDate>
+<date>1370522348000</date>
+<contentUpdateDate>1370522348000</contentUpdateDate>
+<version>3.1</version>
+<title>WebHome</title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden>
+<content>This space contains tests for code which is in module xwiki-platform-web.
+The features tested are:
+* Wiki Editor
+* Jump To Page
+* Bottom Tabs (Comments, Attachments, History, Information)
+* Edit Page (Wiki, Object, Rights)
+* Top Add button (Add Page, Add Space)
+* Page actions (Delete Page, Copy Page, Share Page by Email)
+{{include reference="QA.TestSpaceWebHomeTemplate"/}}
+</content></xwikidoc>
