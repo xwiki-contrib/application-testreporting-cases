@@ -11,7 +11,7 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817317000</creationDate>
+  <creationDate>1370949600000</creationDate>
   <date>1366890699000</date>
   <contentUpdateDate>1366890699000</contentUpdateDate>
   <version>1.1</version>
@@ -75,7 +75,7 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>Wiki Editor Tests.testHeading3ButtonWiki</name>
+    <name>Web Tests.testHeading3ButtonWiki</name>
     <number>0</number>
     <className>QA.TestClass</className>
     <guid>53a33458-0f61-47e8-b0b0-887d0c2f839f</guid>

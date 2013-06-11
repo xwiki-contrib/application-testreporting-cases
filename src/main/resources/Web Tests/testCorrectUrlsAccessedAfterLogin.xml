@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xwikidoc>
-  <web>Index Tests</web>
-  <name>testTreeViewInit</name>
+  <web>Web Tests</web>
+  <name>testCorrectUrlsAccessedAfterLogin</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Index Tests.WebHome</parent>
+  <parent>Web Tests.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817262000</creationDate>
-  <date>1366890649000</date>
-  <contentUpdateDate>1366890649000</contentUpdateDate>
+  <creationDate>1370949605000</creationDate>
+  <date>1370871166000</date>
+  <contentUpdateDate>1370871166000</contentUpdateDate>
   <version>1.1</version>
   <title/>
   <defaultTemplate/>
@@ -75,16 +75,16 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>Document Index Tests.testTreeViewInit</name>
+    <name>Web Tests.testCorrectUrlsAccessedAfterLogin</name>
     <number>0</number>
     <className>QA.TestClass</className>
-    <guid>ba0840fc-9e2f-481c-8f74-419a78dcbccc</guid>
+    <guid>b760c34c-3877-4d3e-b7ac-73912904b231</guid>
     <property>
       <automated>1</automated>
     </property>
     <property>
-      <expectedResult>The tree expands </expectedResult>
+      <expectedResult>You will remain on the page you were before logging in</expectedResult>
     </property>
   </object>
-  <content>Hover over "Wiki" and click on "Document Index"; Click on "Tree" and expand it</content>
+  <content>Click on "Log-Out"; Go to any page except the WebHome page; Click on "Log-In"; Fill in the username; Fill in the  password; Click "Log-In"</content>
 </xwikidoc>

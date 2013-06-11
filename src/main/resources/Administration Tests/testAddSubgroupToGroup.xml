@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xwikidoc>
-  <web>Web Tests</web>
-  <name>testHeading1OnTextWiki</name>
+  <web>Administration Tests</web>
+  <name>testAddSubgroupToGroup</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Web Tests.WebHome</parent>
+  <parent>Administration Tests.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817319000</creationDate>
-  <date>1366890697000</date>
-  <contentUpdateDate>1366890697000</contentUpdateDate>
+  <creationDate>1370949631000</creationDate>
+  <date>1366890889000</date>
+  <contentUpdateDate>1366890889000</contentUpdateDate>
   <version>1.1</version>
   <title/>
   <defaultTemplate/>
@@ -75,16 +75,16 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>Wiki Editor Tests.testHeading1OnTextWiki</name>
+    <name>Administration Tests.testAddSubgroupToGroup</name>
     <number>0</number>
     <className>QA.TestClass</className>
-    <guid>871488f2-b0d6-4105-9d60-8a82c5399199</guid>
+    <guid>313f28eb-2ee8-4963-988a-1bb5655eaaa1</guid>
     <property>
-      <automated>0</automated>
+      <automated>1</automated>
     </property>
     <property>
-      <expectedResult>Formatting is properly applied </expectedResult>
+      <expectedResult>Adding and removing a subgroup works </expectedResult>
     </property>
   </object>
-  <content>Hover over "Edit" and click on "Wiki"; Select some text; Click on the "Heading 1" button; Click "Save &amp; View"</content>
+  <content>Hover over "Wiki" and click on "Administer Wiki"; Click on "Groups"; Click on the small pencil icon to edit a group; Add a subgroup; Remove the previously adeed subgroup</content>
 </xwikidoc>

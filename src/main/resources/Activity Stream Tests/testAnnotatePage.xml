@@ -11,8 +11,8 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817268000</creationDate>
-  <date>1366890583000</date>
+  <creationDate>1370949619000</creationDate>
+  <date>1370610922000</date>
   <contentUpdateDate>1366890583000</contentUpdateDate>
   <version>1.1</version>
   <title/>
@@ -83,7 +83,10 @@
       <automated>0</automated>
     </property>
     <property>
-      <expectedResult>The small icon denoting page annotation is visible under your user </expectedResult>
+      <automatedLinkSourceCode/>
+    </property>
+    <property>
+      <expectedResult>The small icon denoting page annotation is visible under your user in the Activity Stream.</expectedResult>
     </property>
   </object>
   <content>Annotate a page; Go to the main page</content>

@@ -11,9 +11,9 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817274000</creationDate>
-  <date>1366890888000</date>
-  <contentUpdateDate>1366890888000</contentUpdateDate>
+  <creationDate>1370949634000</creationDate>
+  <date>1370863826000</date>
+  <contentUpdateDate>1370863826000</contentUpdateDate>
   <version>1.1</version>
   <title/>
   <defaultTemplate/>
@@ -83,8 +83,11 @@
       <automated>1</automated>
     </property>
     <property>
-      <expectedResult>The user is deleted </expectedResult>
+      <automatedLinkSourceCode/>
+    </property>
+    <property>
+      <expectedResult>The user is created and then deleted.</expectedResult>
     </property>
   </object>
-  <content>Hover over "Wiki" and click on "Administer Wiki"; Click on "Users"; Click on the red "X" to delete a user; Click "OK"</content>
+  <content>Hover over "Wiki" and click on "Administer Wiki"; Click on "Users"; Add a user; Click on the red "X" to delete a user; Click "OK".</content>
 </xwikidoc>

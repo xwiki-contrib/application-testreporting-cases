@@ -11,7 +11,7 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369653237000</creationDate>
+  <creationDate>1370949646000</creationDate>
   <date>1369653250000</date>
   <contentUpdateDate>1366890760000</contentUpdateDate>
   <version>1.1</version>
@@ -75,7 +75,7 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>Workspaces Tests.testMakeRequestToJoinWorkspace</name>
+    <name>Workspace Tests.testMakeRequestToJoinWorkspace</name>
     <number>0</number>
     <className>QA.TestClass</className>
     <guid>224622bf-835a-4ba1-8a2e-74b94b47e24b</guid>

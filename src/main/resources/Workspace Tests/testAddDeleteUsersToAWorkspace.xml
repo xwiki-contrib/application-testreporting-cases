@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xwikidoc>
-  <web>Annotations Tests</web>
-  <name>testAllChanges</name>
+  <web>Workspace Tests</web>
+  <name>testAddDeleteUsersToAWorkspace</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Annotations Tests.WebHome</parent>
+  <parent>Workspace Tests.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817294000</creationDate>
-  <date>1369298921000</date>
-  <contentUpdateDate>1366890852000</contentUpdateDate>
+  <creationDate>1370949651000</creationDate>
+  <date>1370610605000</date>
+  <contentUpdateDate>1370610605000</contentUpdateDate>
   <version>1.1</version>
   <title/>
   <defaultTemplate/>
@@ -75,16 +75,16 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>Page Tabs Tests.testAllChanges</name>
+    <name>Workspace Tests.testAddDeleteUsersToAWorkspace</name>
     <number>0</number>
     <className>QA.TestClass</className>
-    <guid>811f00a5-76fa-4797-9235-adefedea332d</guid>
+    <guid>14442e41-f932-4684-893c-0865c3895670</guid>
     <property>
-      <automated>1</automated>
+      <automated>0</automated>
     </property>
     <property>
-      <expectedResult>You see a page with the differences between those two versions </expectedResult>
+      <expectedResult>The new member of the workspace appears in the livetable below the "Existing users" section; The user is deleted</expectedResult>
     </property>
   </object>
-  <content>Click on "History"; Click "Show Minor Edits"; Select a version range; Click on "Compare Selected Versions"</content>
+  <content>Hover over "Workspace" and click on "Administer Workspace"; Click on "Workspace Users"; Fill in the username and the message; Click "Add"; In the livetable below the "Existing users" section click on the corresponding "remove" link</content>
 </xwikidoc>

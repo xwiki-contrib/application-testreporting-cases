@@ -11,7 +11,7 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817264000</creationDate>
+  <creationDate>1370949690000</creationDate>
   <date>1366890746000</date>
   <contentUpdateDate>1366890746000</contentUpdateDate>
   <version>1.1</version>
@@ -75,7 +75,7 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>Wiki Manager Tests.testDeleteWiki</name>
+    <name>Application Manager Tests.testDeleteWiki</name>
     <number>0</number>
     <className>QA.TestClass</className>
     <guid>a675e872-72ce-4f20-a744-9cfca69bcf97</guid>

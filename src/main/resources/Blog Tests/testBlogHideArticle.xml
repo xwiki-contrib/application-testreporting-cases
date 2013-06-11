@@ -11,8 +11,8 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817322000</creationDate>
-  <date>1366890815000</date>
+  <creationDate>1370949696000</creationDate>
+  <date>1370611939000</date>
   <contentUpdateDate>1366890815000</contentUpdateDate>
   <version>1.1</version>
   <title/>
@@ -83,7 +83,10 @@
       <automated>0</automated>
     </property>
     <property>
-      <expectedResult>Changes are saved </expectedResult>
+      <automatedLinkSourceCode/>
+    </property>
+    <property>
+      <expectedResult>Changes are saved and the article is hidden.</expectedResult>
     </property>
   </object>
   <content>Click on "Blog"; Click on the pen to "Edit this blog post"; Check "Hide Article"; Click "Save &amp; View"</content>

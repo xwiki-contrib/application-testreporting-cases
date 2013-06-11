@@ -11,9 +11,9 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817277000</creationDate>
-  <date>1366890896000</date>
-  <contentUpdateDate>1366890896000</contentUpdateDate>
+  <creationDate>1370949638000</creationDate>
+  <date>1370866202000</date>
+  <contentUpdateDate>1370866202000</contentUpdateDate>
   <version>1.1</version>
   <title/>
   <defaultTemplate/>
@@ -83,8 +83,11 @@
       <automated>0</automated>
     </property>
     <property>
+      <automatedLinkSourceCode/>
+    </property>
+    <property>
       <expectedResult>Redirects to search page where you will see a relevance percentage bar for each result; The results are highlighted</expectedResult>
     </property>
   </object>
-  <content>On the top right corner, enter some text in the field and press enter</content>
+  <content>Enable Solr search if it's not default. On the top right corner, enter some text in the field and press enter</content>
 </xwikidoc>

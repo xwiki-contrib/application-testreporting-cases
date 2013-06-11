@@ -11,9 +11,9 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817303000</creationDate>
-  <date>1366890589000</date>
-  <contentUpdateDate>1366890589000</contentUpdateDate>
+  <creationDate>1370949658000</creationDate>
+  <date>1370875982000</date>
+  <contentUpdateDate>1370875982000</contentUpdateDate>
   <version>1.1</version>
   <title/>
   <defaultTemplate/>
@@ -83,8 +83,11 @@
       <automated>0</automated>
     </property>
     <property>
-      <expectedResult>You see the default theme page </expectedResult>
+      <automatedLinkSourceCode/>
+    </property>
+    <property>
+      <expectedResult>You see the default theme page, you can edit it and cancel the edition</expectedResult>
     </property>
   </object>
-  <content>Hover over "Wiki" and click on "Administer Wiki"; Click on "Presentation"; Click on "Manage Color Themes"; Click on the default theme</content>
+  <content>Hover over "Wiki" and click on "Administer Wiki"; Click on "Presentation"; Click on "Manage Color Themes"; Click on the default theme; Edit the theme; Cancel the edition</content>
 </xwikidoc>

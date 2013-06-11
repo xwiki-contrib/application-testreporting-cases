@@ -11,7 +11,7 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817287000</creationDate>
+  <creationDate>1370949674000</creationDate>
   <date>1366890871000</date>
   <contentUpdateDate>1366890871000</contentUpdateDate>
   <version>1.1</version>
@@ -75,7 +75,7 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>WYSIWYG Editor Tests.testPasteClipboard</name>
+    <name>WYSIWYG Tests.testPasteClipboard</name>
     <number>0</number>
     <className>QA.TestClass</className>
     <guid>51f1a336-1a27-4d9e-bb05-a9ebd9ff8451</guid>

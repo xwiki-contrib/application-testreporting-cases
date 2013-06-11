@@ -11,7 +11,7 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817308000</creationDate>
+  <creationDate>1370949591000</creationDate>
   <date>1366890821000</date>
   <contentUpdateDate>1366890821000</contentUpdateDate>
   <version>1.1</version>
@@ -75,10 +75,10 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>Action Menus Tests.importDocument</name>
+    <name>Web Tests.importDocument</name>
     <number>0</number>
     <className>QA.TestClass</className>
-    <guid>0baf6490-1921-4e0e-b02b-1529fb5f6b6a</guid>
+    <guid>b0845af8-7381-473e-8e61-be9e045b05d4</guid>
     <property>
       <automated>1</automated>
     </property>

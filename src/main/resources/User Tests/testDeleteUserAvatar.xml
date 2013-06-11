@@ -11,7 +11,7 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817306000</creationDate>
+  <creationDate>1370949688000</creationDate>
   <date>1366890838000</date>
   <contentUpdateDate>1366890838000</contentUpdateDate>
   <version>1.1</version>
@@ -75,7 +75,7 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>User Profile Tests.testDeleteUserAvatar</name>
+    <name>User Tests.testDeleteUserAvatar</name>
     <number>0</number>
     <className>QA.TestClass</className>
     <guid>bee6a206-e4fc-4033-b016-8b3607dddbf7</guid>

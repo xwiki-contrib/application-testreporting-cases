@@ -11,8 +11,8 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817274000</creationDate>
-  <date>1366890896000</date>
+  <creationDate>1370949634000</creationDate>
+  <date>1370867147000</date>
   <contentUpdateDate>1366890896000</contentUpdateDate>
   <version>1.1</version>
   <title/>
@@ -83,7 +83,10 @@
       <automated>0</automated>
     </property>
     <property>
-      <expectedResult>Progress bar appears; Message confirming  successful upgrade </expectedResult>
+      <automatedLinkSourceCode/>
+    </property>
+    <property>
+      <expectedResult>Progress bar appears; Message confirming the successful upgrade.</expectedResult>
     </property>
   </object>
   <content>Hover over "Wiki" and click on "Administer Wiki"; Click on "Add extensions"; Click the "Upgrade" button for one of the extensions that can be upgraded; Click "Continue"</content>

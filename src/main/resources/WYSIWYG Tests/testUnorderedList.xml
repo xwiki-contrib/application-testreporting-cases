@@ -11,7 +11,7 @@
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1369817284000</creationDate>
+  <creationDate>1370949668000</creationDate>
   <date>1366890863000</date>
   <contentUpdateDate>1366890863000</contentUpdateDate>
   <version>1.1</version>
@@ -75,7 +75,7 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </expectedResult>
     </class>
-    <name>WYSIWYG Editor Tests.testUnorderedList</name>
+    <name>WYSIWYG Tests.testUnorderedList</name>
     <number>0</number>
     <className>QA.TestClass</className>
     <guid>2b9fd1ab-0ee1-4ff9-9fdf-a26023f99275</guid>
